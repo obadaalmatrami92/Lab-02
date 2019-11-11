@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    text-align: center;
+    padding: 111px;
+    background-color: lightseagreen;
+    font-family: 'Mansalva', cursive;
+}
+
+footer {
+    clear: both;
+}
+
+h1 {
+    margin: 9px;
+}
