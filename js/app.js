@@ -11,17 +11,17 @@ RandomHorn.allCreatures = [];
 
 RandomHorn.prototype.render = function() {
     $('main').append('<div class="clone"></div>');
-    let creatureClone = $('div[class="clone"]');
+    let Hornoutput = $('div[class="clone"]');
     let creatureHtml = $('#photo-template').html();
-    creatureClone.html(creatureHtml);
-    creatureClone.find('h2').text(this.title);
-    creatureClone
+    Hornoutput.html(creatureHtml);
+    Hornoutput.find('h2').text(this.title);
+    Hornoutput
         .find('img')
         .attr('src', this.image_url)
         .attr('alt', this.description);
-    creatureClone.find('p').text(this.description);
-    creatureClone.removeClass('clone');
-    creatureClone.attr('class', this.keyword).addClass('animal');
+    Hornoutput.find('p').text(this.description);
+    Hornoutput.removeClass('clone');
+    Hornoutput.attr('class', this.keyword).addClass('animal');
 };
 
 RandomHorn.readJson = () => {
