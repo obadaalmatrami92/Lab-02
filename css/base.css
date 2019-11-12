@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(143, 104, 235);
+    font-family: 'Pacifico', cursive;
+}
+
+footer {
+    clear: both;
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+h1 {
+    padding: 40px;
+    margin: 50px;
+}
